@@ -1,41 +1,26 @@
 <template>
-  <iframe src="https://www.classmarker.com/online-test/start/?quiz=x3762737a181cfcf&iframe=1" frameborder="0"
-          style="width:100%;max-width:700px;" height="800"></iframe>
+  <div class="container">
+      <button class="btn"><a href="/proprofs">Proprofs</a></button>
+      <button  class="btn"><a href="/flexiquiz">Flexi Quiz</a></button>
+      <button  class="btn"><a href="/classmarker">ClassMarker</a></button>
+  </div>
 </template>
 <script>
-export default {
-  data: () => ({
-    selectedItem: 0,
-    items: [
-      {text: 'My Files', icon: 'mdi-folder'},
-      {text: 'Shared with me', icon: 'mdi-account-multiple'},
-      {text: 'Starred', icon: 'mdi-star'},
-      {text: 'Recent', icon: 'mdi-history'},
-      {text: 'Offline', icon: 'mdi-check-circle'},
-      {text: 'Uploads', icon: 'mdi-upload'},
-      {text: 'Backups', icon: 'mdi-cloud-upload'},
-    ],
-  }),
-}
+export default {}
 </script>
-
-<!--<script lang="ts" setup>-->
-<!--import DefaultLayout from '@/layouts/default.vue'-->
-<!--export default {-->
-<!--  components: {-->
-<!--    DefaultLayout-->
-<!--  },-->
-<!--  data: () => ({-->
-<!--    selectedItem: 0,-->
-<!--    items: [-->
-<!--      { text: 'My Files', icon: 'mdi-folder' },-->
-<!--      { text: 'Shared with me', icon: 'mdi-account-multiple' },-->
-<!--      { text: 'Starred', icon: 'mdi-star' },-->
-<!--      { text: 'Recent', icon: 'mdi-history' },-->
-<!--      { text: 'Offline', icon: 'mdi-check-circle' },-->
-<!--      { text: 'Uploads', icon: 'mdi-upload' },-->
-<!--      { text: 'Backups', icon: 'mdi-cloud-upload' },-->
-<!--    ],-->
-<!--  }),-->
-<!--}-->
-<!--</script>-->
+<style scoped>
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn{
+  width: 100px;
+  height: 30px;
+  border: 1px solid black;
+  margin-top: 20px;
+}
+a{
+  text-decoration: none;
+}
+</style>
