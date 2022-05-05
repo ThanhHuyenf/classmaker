@@ -1,6 +1,6 @@
 <template>
-    <iframe src="https://www.classmarker.com/online-test/start/?quiz=xn662729a78d790d&iframe=1" frameborder="0"
-            style="width:100%;max-width:700px;" height="800"></iframe>
+  <iframe src="https://www.classmarker.com/online-test/start/?quiz=x3762737a181cfcf&iframe=1" frameborder="0"
+          style="width:100%;max-width:700px;" height="800"></iframe>
 </template>
 <script>
 export default {
